@@ -355,9 +355,9 @@ st.markdown(f"""
         {"" if health['llm_configured'] else '<span class="hero-badge" style="border-color:rgba(201,58,58,.5);background:rgba(201,58,58,.15);color:#f87171;margin-left:8px;">⚠️ API key missing</span>'}
     </div>
     <div style="text-align:right;color:rgba(255,255,255,.5);font-size:0.78rem;">
-        {len(uploads)} uploaded<br>
-        {len(kb_docs)} policy files<br>
-        {len(uploads)+len(kb_docs)} total docs
+    {len(uploads)} uploaded<br>
+    {len(kb_docs)} policy files<br>
+    {len(uploads)+len(kb_docs)} total docs
     </div>
 </div>
 """, unsafe_allow_html=True)
