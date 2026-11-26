@@ -1,0 +1,15 @@
+[
+  {"question": "When does Tata pay vendor invoices?", "expect_any": [["45"]], "source": "payment_terms.md"},
+  {"question": "When must the vendor submit invoices?", "expect_any": [["end of each", "month"]], "source": "payment_terms.md"},
+  {"question": "How quickly must a data breach be reported?", "expect_any": [["24"]], "source": "data_protection.md"},
+  {"question": "How long do confidentiality obligations last after termination?", "expect_any": [["5", "five"]], "source": "confidentiality.md"},
+  {"question": "How much notice does Tata need to terminate for convenience?", "expect_any": [["30", "thirty"]], "source": "termination.md"},
+  {"question": "Which country's law governs the agreement?", "expect_any": [["India"]], "source": "governing_law.md"},
+  {"question": "Where are unresolved disputes arbitrated?", "expect_any": [["Mumbai"]], "source": "dispute_resolution.md"},
+  {"question": "How much notice is required before an audit?", "expect_any": [["15", "fifteen"]], "source": "audit_rights.md"},
+  {"question": "What is the vendor's liability cap?", "expect_any": [["12 months", "twelve months", "100%"]], "source": "liability.md"},
+  {"question": "Does the agreement renew automatically?", "expect_any": [["not", "no "]], "source": "renewal.md"},
+  {"question": "Which code of conduct must the vendor follow?", "expect_any": [["Code of Conduct", "TCoC"]], "source": "compliance_obligations.md"},
+  {"question": "Who pays for claims caused by the vendor's negligence?", "expect_any": [["vendor"]], "source": "indemnity.md"},
+  {"question": "What is the salary of Tata's CEO?", "expect_any": [["do not cover", "does not cover", "not covered", "don't cover"]], "source": null}
+]

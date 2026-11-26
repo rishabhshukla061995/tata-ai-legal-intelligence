@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+python-multipart
+sqlalchemy
+pydantic
+streamlit
+httpx
+chromadb
+sentence-transformers
+langgraph
+langchain-community
+pypdf
+python-docx
+python-dotenv
+pytest
+pandas
