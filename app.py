@@ -1,8 +1,4 @@
 import start_backend  # noqa: F401 — boots FastAPI in background thread
-"""Streamlit frontend — enhanced interactive UI.
-Run from project root:  streamlit run app.py
-(FastAPI backend must be running first.)
-"""
 from datetime import date, timedelta
 
 import httpx
