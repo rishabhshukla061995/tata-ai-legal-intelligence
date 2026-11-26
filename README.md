@@ -23,7 +23,7 @@ Also: upload PDF, DOCX, TXT, MD or CSV files, and every query is logged to SQLit
 
 
 ## Demo Links
-- **Live Deployed App:** `<PASTE_YOUR_STREAMLIT_CLOUD_URL_HERE>`
+- **Live Deployed App:** `https://tata-ai-legal-intelligence-gdmpdnxzhqkpstuwivunwt.streamlit.app/`
 - **Demo Video Walkthrough:** `<PASTE_YOUR_GOOGLE_DRIVE_VIDEO_LINK_HERE>`
 
 ## Architecture
