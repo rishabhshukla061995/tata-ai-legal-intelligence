@@ -693,8 +693,8 @@ with tab_dates:
             else:
                 # Summary counts
                 today_str = date.today().isoformat()
-                overdue = sum(1 for r in rows if r.get("due_date", "") < today_str)
-                upcoming = sum(1 for r in rows if today_str <= r.get("due_date", "") <= (date.today() + timedelta(days=30)).isoformat())
+                overdue = sum(1 for r in rows if (r.get("due_date") or "") and (r.get("due_date") or "") < today_str)
+                upcoming = sum(1 for r in rows if today_str <= (r.get("due_date") or "") <= (date.today() + timedelta(days=30)).isoformat())
 
                 st.markdown(
                     '<div class="stat-row">'
