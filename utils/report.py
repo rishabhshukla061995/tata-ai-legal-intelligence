@@ -74,7 +74,7 @@ def build_report(contract: str, sections: dict[str, str], risk: dict | None = No
         items = risk.get("risks") or []
         if items:
             _table(doc, [["Risk", "Severity", "Why it matters", "Suggested fix", "Source"]] + [
-                [r.get("title", ""), r.get("severity", ""), r.get("why", ""), r.get("fix", ""), r.get("source", "")]
+                [str(r.get("title") or r.get("clause") or ""), str(r.get("severity") or ""), str(r.get("why") or r.get("issue") or ""), str(r.get("fix") or r.get("recommendation") or ""), str(r.get("source") or "")]
                 for r in items
             ])
     for title, md in sections.items():
